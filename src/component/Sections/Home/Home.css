@@ -1,3 +1,38 @@
-#home{
-    height: 100vh;
+#home {
+  height: 70vh;
+  color: white;
+}
+
+.backgimg-text {
+  position: fixed;
+  top: 20%;
+  z-index: 1;
+  width: 100%;
+  font-family: var(--tight-font-family);
+  z-index: -2000;
+}
+
+.backgimg-text p {
+  font-size: 4em;
+}
+
+.backgimg-text h1 {
+  position: relative;
+  width: 100%;
+  font-size: 13em;
+  line-height: 1em;
+  font-weight: var(--wo-bold-weigth);
+}
+
+.backgimg-text h1 span {
+  color: var(--span-color);
+  display: inline-block;
+  transform-origin: left;
+  animation: bendAnimation 1s ease forwards;
+}
+
+@keyframes bendAnimation {
+  100% {
+    transform: translateY(0) rotate(20deg);
+  }
 }
