@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    /* Colors */
+    --wo-body-bg: #000000;
+    --wo-body-light-bg: #fff;
+    --wo-secondary-color: #ffffff;
+    --wo-text-color: #ffff;
+    --wo-nav-text-color: #000000;
+    --wo-hover-color: #006F51;
+
+
+}
+
+body{
+    background-color: var(--wo-body-bg);
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}

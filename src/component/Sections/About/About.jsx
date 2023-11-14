@@ -1,8 +1,8 @@
-import "./About.css":
-import React from 'react'
+import React from 'react';
+import "./About.css";
 
 export const About = () => {
   return (
-    <div>About</div>
+    <div id='about'>About</div>
   )
 }
