@@ -27,7 +27,7 @@ export const Navbar = () => {
             className="navbar-logo"
             onClick={() => scrollToSection("home")}
           >
-            <img src={LogoImg} alt="William Logo image" />
+            <img src={LogoImg} alt="William Logo" />
           </a>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
