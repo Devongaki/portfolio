@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
+import GamestudioImg from "../../../assets/images/gamestudios.jpg"
 
 export const Projects = () => {
   return (
@@ -10,7 +11,7 @@ export const Projects = () => {
         <div className="project-container">
           <div className="project-items">
             <div className="project-img">
-              <img src="" alt="" />
+              <img src={GamestudioImg} alt="" />
             </div>
             <div className="project-details">
               <div className="project-title">
@@ -18,14 +19,12 @@ export const Projects = () => {
               </div>
               <div className="project-description">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-                  <br /> <br /> Quod voluptate dolores deserunt reiciendis
-                  aspernatur temporibus tempora natus enim doloribus mollitia.{" "}
-                  <br />
-                  <br /> quos eligendi, id alias pariatur similique ex, minima
-                  facilis repellat?
-                  <br /> quos eligendi, id alias pariatur similique ex, minima
-                  facilis repellat?
+                  Welcome to my Gamestudio!
+                  <br /><br /> It's a platform where you can easily search for your
+                  favorite games, read about their details, and swiftly jump
+                  into the gaming action with just a click. <br />
+                  <br /> Enjoy the convenience of exploring and playing all in
+                  one place!"
                 </p>
               </div>
               <div className="project-cta">
@@ -188,7 +187,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
