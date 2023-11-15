@@ -4,7 +4,7 @@
   padding-bottom: 2em;
 }
 
-.project-items{
+.project-items {
   width: 100%;
   height: 600px;
   display: flex;
@@ -15,7 +15,7 @@
 
 .project-img {
   background-color: #161616;
-  width: 700px;
+  width: 80%;
   height: 400px;
 }
 
@@ -43,12 +43,9 @@
   font-family: var(--space-font-family);
 }
 
-.github-cta {
+.github-cta a {
   background-color: var(--wo-body-bg);
   padding: 1em 2em;
-}
-
-.github-cta a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,17 +54,52 @@
   width: 100%;
 }
 
-.live-cta {
-  background-color: transparent;
-  padding: 1em 2em;
-  border: 1px solid var(--wo-body-bg);
+.github-cta a:hover {
+  border: 1px solid var(--wo-hover-color);
 }
 
 .live-cta a {
+  background-color: transparent;
+  padding: 1em 2em;
+  border: 1px solid var(--wo-body-bg);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5em;
   color: var(--wo-secondary-color);
   color: var(--wo-body-bg);
+}
+
+@media screen and (max-width: 960px) {
+  #projects {
+    padding-top: 3em;
+  }
+  .project-items {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-details {
+    width: 100%;
+    padding-bottom: 2em;
+  }
+}
+
+
+@media screen and (max-width: 560px) {
+
+    .project-items {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+.project-cta {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1em;
+}
 }
