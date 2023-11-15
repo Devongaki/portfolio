@@ -3,7 +3,6 @@ import "./Navbar.css";
 import LogoImg from "../../assets/images/w-logo-33581.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { HiArrowDownTray } from "react-icons/hi2";
-import ResumePdf from "../../assets/Resume.pdf";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
