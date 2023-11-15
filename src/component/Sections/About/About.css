@@ -1,4 +1,84 @@
-#about{
-    height: 100vh;
-    background-color: aquamarine;
+#about {
+  height: auto;
+  background-color: var(--wo-body-bg);
+}
+
+.about-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-top: 5em;
+}
+
+.about-me h2{
+text-transform: uppercase;
+font-weight: 300;
+opacity: .7;
+padding-bottom: .5em;
+}
+.about-me p{
+    width: 50%;
+}
+
+.about-me p a{
+    color: var(--span-color);
+}
+
+.about-skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--wo-body-light-bg);
+    width: 100%;
+}
+
+.skills-brands{
+    margin: 0 30px 3em;
+}
+.about-skills svg{
+    width: 70px;
+    height: 70px;
+    color: var(--wo-body-light-bg);
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .about-me p{
+        width: 100%;
+    }
+    .about-skills{
+        width: 100%;
+        justify-content: center;
+    }
+    .skills-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px){
+    .skills-brands{
+        margin: 0 20px 2em;
+    }
 }
