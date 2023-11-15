@@ -1,13 +1,17 @@
 import React from "react";
 import "./About.css";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { FaWordpressSimple } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaSass,
+  FaWordpressSimple,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { BsBootstrapFill } from "react-icons/bs";
+
 
 export const About = () => {
   return (
@@ -67,6 +71,10 @@ export const About = () => {
             <div className="skills-brands">
               <BsBootstrapFill />
               <p>Bootstrap</p>
+            </div>
+            <div className="skills-brands">
+              <FaSass />
+              <p>Sass</p>
             </div>
           </div>
         </div>
