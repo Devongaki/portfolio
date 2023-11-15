@@ -2,7 +2,9 @@ import React from "react";
 import "./Projects.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
-import GamestudioImg from "../../../assets/images/gamestudios.jpg"
+import GamestudioImg from "../../../assets/images/gamestudios.jpg";
+import KenyaSafariimg from "../../../assets/images/kenyasafari.png";
+import Rainydaysimg from "../../../assets/images/Rainydays.png";
 
 export const Projects = () => {
   return (
@@ -20,7 +22,8 @@ export const Projects = () => {
               <div className="project-description">
                 <p>
                   Welcome to my Gamestudio!
-                  <br /><br /> It's a platform where you can easily search for your
+                  <br />
+                  <br /> It's a platform where you can easily search for your
                   favorite games, read about their details, and swiftly jump
                   into the gaming action with just a click. <br />
                   <br /> Enjoy the convenience of exploring and playing all in
@@ -45,11 +48,11 @@ export const Projects = () => {
           </div>
           <div className="project-items">
             <div className="project-img">
-              <img src="" alt="" />
+              <img src={KenyaSafariimg} alt="" />
             </div>
             <div className="project-details">
               <div className="project-title">
-                <h1>Gamestudios</h1>
+                <h1>Kenya Safari</h1>
               </div>
               <div className="project-description">
                 <p>
@@ -71,7 +74,7 @@ export const Projects = () => {
                   </a>
                 </div>
                 <div className="live-cta">
-                  <a href="https://taupe-cannoli-a5e077.netlify.app">
+                  <a href="https://upbeat-kare-14d099.netlify.app/blog">
                     <MdLiveTv />
                     Demo
                   </a>
@@ -81,11 +84,11 @@ export const Projects = () => {
           </div>
           <div className="project-items">
             <div className="project-img">
-              <img src="" alt="" />
+              <img src={Rainydaysimg} alt="" />
             </div>
             <div className="project-details">
               <div className="project-title">
-                <h1>Gamestudios</h1>
+                <h1>RainyDays</h1>
               </div>
               <div className="project-description">
                 <p>
@@ -107,7 +110,7 @@ export const Projects = () => {
                   </a>
                 </div>
                 <div className="live-cta">
-                  <a href="https://taupe-cannoli-a5e077.netlify.app">
+                  <a href="https://nostalgic-hawking-af93b5.netlify.app/">
                     <MdLiveTv />
                     Demo
                   </a>
