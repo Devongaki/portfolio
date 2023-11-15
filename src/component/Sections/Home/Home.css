@@ -1,11 +1,11 @@
 #home {
-  height: 70vh;
+  height: 75vh;
   color: white;
 }
 
 .backgimg-text {
   position: fixed;
-  top: 20%;
+  top: 15%;
   z-index: 1;
   width: 100%;
   font-family: var(--tight-font-family);
@@ -32,6 +32,9 @@
 }
 
 @keyframes bendAnimation {
+    0% {
+        transform: ;
+    }
   100% {
     transform: translateY(0) rotate(20deg);
   }

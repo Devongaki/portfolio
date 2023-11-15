@@ -12,15 +12,15 @@
   --wo-text-color: #ffff;
   --wo-nav-text-color: #000000;
   --wo-hover-color: #006f51;
-   --span-color: #ff4500; 
+  --span-color: #ff4500;
 
   /* font family */
   --inter-font-family: "Inter", sans-serif;
   --tight-font-family: "Inter Tight", sans-serif;
+  --space-font-family: "Space Grotesk", sans-serif;
 
   /* Font weights */
---wo-bold-weigth: 900;
-
+  --wo-bold-weigth: 900;
 }
 
 body {
