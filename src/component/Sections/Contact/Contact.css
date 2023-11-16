@@ -108,9 +108,10 @@ form .send-button {
 }
 
 .message-container {
-  height: 30vw;
+  height: auto;
   background-color: var(--span-color);
   font-size: 3em;
+  text-align: center;
 }
 
 @media screen and (max-width: 960px) {

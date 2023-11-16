@@ -23,6 +23,10 @@ function Contact() {
         (result) => {
           setFormSubmited(true);
           console.log(result.text);
+
+          setTimeout(() => {
+            setFormSubmited(false);
+          }, 3000)
         },
         (error) => {
           console.log(error.text);
