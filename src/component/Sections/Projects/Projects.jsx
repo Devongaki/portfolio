@@ -56,14 +56,10 @@ export const Projects = () => {
               </div>
               <div className="project-description">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-                  <br /> <br /> Quod voluptate dolores deserunt reiciendis
-                  aspernatur temporibus tempora natus enim doloribus mollitia.{" "}
-                  <br />
-                  <br /> quos eligendi, id alias pariatur similique ex, minima
-                  facilis repellat?
-                  <br /> quos eligendi, id alias pariatur similique ex, minima
-                  facilis repellat?
+                  Kenya Safaris showcases my safari trip to Kenya, featuring photos, stories,
+                  and recommendations for future travelers. <br /><br /> The app offers a
+                  personalized experience for users interested in African
+                  wildlife and culture.
                 </p>
               </div>
               <div className="project-cta">
@@ -92,14 +88,10 @@ export const Projects = () => {
               </div>
               <div className="project-description">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-                  <br /> <br /> Quod voluptate dolores deserunt reiciendis
-                  aspernatur temporibus tempora natus enim doloribus mollitia.{" "}
-                  <br />
-                  <br /> quos eligendi, id alias pariatur similique ex, minima
-                  facilis repellat?
-                  <br /> quos eligendi, id alias pariatur similique ex, minima
-                  facilis repellat?
+                  Rainydays is an e-commerce platform that offers a diverse
+                  range of winter jackets. <br /><br /> The site includes filtering options,
+                  user accounts, secure payment processing, and a personalized
+                  shopping experience.
                 </p>
               </div>
               <div className="project-cta">
@@ -118,7 +110,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="project-items">
+          {/* <div className="project-items">
             <div className="project-img">
               <img src="" alt="" />
             </div>
@@ -189,7 +181,7 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
