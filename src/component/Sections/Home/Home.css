@@ -21,20 +21,39 @@
   font-size: clamp(50px, 18vw, 13em);
   line-height: 1em;
   font-weight: var(--wo-bold-weigth);
+  transition: transform 0.3s ease;
 }
 
 .backgimg-text h1 span {
   color: var(--span-color);
   display: inline-block;
   transform-origin: left;
-  animation: bendAnimation 1s ease forwards;
+  animation: bounceAnimation 1s ease forwards;
 }
 
-@keyframes bendAnimation {
+.backgimg-text h1 span {
+  color: var(--span-color);
+  display: inline-block;
+  transform-origin: center;
+}
+
+@keyframes bounceAnimation {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* @keyframes bendAnimation {
   100% {
     transform: translateY(0) rotate(20deg);
   }
-}
+} */
 
 
 
