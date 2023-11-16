@@ -6,28 +6,29 @@
 
 .project-items {
   width: 100%;
-  height: 600px;
+  height: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   gap: 2em;
 }
 
 .project-img {
   background-color: #161616;
-  width: 80%;
-  height: 500px;
+  width: 100%;
+  max-height: 400px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
-.project-img img{
+.project-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .project-details {
-  width: 350px;
+  width: 100%;
 }
 
 .project-title {
@@ -44,72 +45,33 @@
 
 .project-cta {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  gap: 1em;
   width: 100%;
   font-family: var(--space-font-family);
 }
 
-.github-cta a {
-  background-color: var(--wo-body-bg);
+.github-cta a,
+.live-cta a {
   padding: 1em 2em;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5em;
   color: var(--wo-secondary-color);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
   width: 100%;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2)
+  text-decoration: none;
 }
 
 .github-cta a:hover {
   border: 1px solid var(--wo-hover-color);
 }
 
-.live-cta a {
-  background-color: transparent;
-  padding: 1em 2em;
-  border: 1px solid var(--wo-body-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5em;
-  color: var(--wo-secondary-color);
-  color: var(--wo-body-bg);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2)
-}
-
 @media screen and (max-width: 960px) {
   #projects {
     padding-top: 3em;
   }
-  .project-items {
-    flex-direction: column;
-    height: 750px;
-  }
-
-  .project-img {
-    width: 100%;
-  }
-
-  .project-details {
-    width: 100%;
-    padding-bottom: 2em;
-  }
-}
-
-
-@media screen and (max-width: 560px) {
-
-    .project-items {
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-.project-cta {
-    align-items: stretch;
-    flex-direction: column;
-    gap: 1em;
-}
 }
