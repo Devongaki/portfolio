@@ -1,31 +1,24 @@
 #footer {
-  height: 20vh;
-  background-color: white;
-  display: flex;
+  height: auto;
 }
-
-.footer-container {
-  position: relative;
+.footer-icons {
+  padding: 1em;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
 }
 
-.footer-title h1 {
-  font-size: 3em;
-  line-height: 1em;
-  font-weight: var(--wo-bold-weigth);
+.footer-icons a {
+  padding-left: 1em;
 }
 
-@media screen and (max-width: 960px) {
-  .footer-container {
-    flex-direction: column;
-    gap: 1em;
-    padding-top: 1em;
-  }
+.footer-icons svg {
+  width: 30px;
+  height: 30px;
+  color: var(--wo-body-bg);
+  transition: transform 0.3s ease;
+}
 
-  .footer-title h1 {
-    font-size: 2em;
-  }
+.footer-icons svg:hover {
+  color: var(--span-color);
+  transform: scale(1.2);
 }

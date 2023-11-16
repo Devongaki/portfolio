@@ -1,0 +1,123 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--wo-body-light-bg);
+}
+
+.main-content {
+  width: 100%;
+  height: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+
+.article-text{
+    text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.form-fields {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+
+.form-fields input {
+  resize: none;
+  color: var(--text-color) !important;
+  box-shadow: none !important;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 24px 21px !important;
+  border: 1px solid var(--wo-body-bg);
+  border-radius: 0.25rem;
+  box-shadow: none !important;
+  outline: none;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.form-fields textarea {
+  box-shadow: none !important;
+  padding: 24px 21px !important;
+  background: transparent;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  resize: none;
+  outline: none;
+  border: 1px solid var(--wo-body-bg);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+form .send-button {
+  font-size: calc(var(--extra-small-font) + 1.1px);
+  background-color: var(--wo-body-bg);
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  padding: 15px 40px;
+  margin-bottom: 3rem;
+  color: var(--wo-body-light-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-button svg {
+  margin-left: 1rem;
+  animation: move 0.5s alternate infinite;
+  color: var(--span-color);
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+.message-container {
+  height: 30vw;
+  background-color: var(--span-color);
+  font-size: 3em;
+}
+
+@media screen and (max-width: 960px) {
+  .form-fields {
+    width: 100%;
+  }
+  form .send-button {
+    width: 100%;
+  }
+}
