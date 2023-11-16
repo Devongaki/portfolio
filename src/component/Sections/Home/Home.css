@@ -69,7 +69,7 @@
 }
 @media screen and (max-width: 560px) {
  #home{
-    height: 50vh;
+    height: 30vh;
   }
 
   .backgimg-text h1{

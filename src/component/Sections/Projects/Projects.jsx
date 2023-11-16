@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
-import GamestudioImg from "../../../assets/images/gamestudios.jpg";
+import GamestudioImg from "../../../assets/images/GamestudioImg.png";
 import KenyaSafariimg from "../../../assets/images/kenyasafari.png";
 import Rainydaysimg from "../../../assets/images/Rainydays.png";
 
