@@ -27,8 +27,8 @@
   padding-bottom: 0.5em;
 }
 
-.article-text{
-    text-align: center;
+.article-text {
+  text-align: center;
 }
 form {
   display: flex;
@@ -121,4 +121,14 @@ form .send-button {
   form .send-button {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 660px) {
+  .about-me h2{
+    font-size: 19px;
+  }
+  .about-me p{
+    font-size: 14px;
+  }
+
 }

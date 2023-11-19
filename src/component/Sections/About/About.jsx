@@ -48,8 +48,6 @@ export const About = () => {
               <FaNodeJs />
               <p>Node</p>
             </div>
-          </div>
-          <div className="about-skills">
             <div className="skills-brands">
               <FaWordpressSimple />
               <p>WordPress</p>
@@ -62,8 +60,6 @@ export const About = () => {
               <IoLogoCss3 />
               <p>CSS3</p>
             </div>
-          </div>
-          <div className="about-skills">
             <div className="skills-brands">
               <SiTypescript />
               <p>Typescript</p>

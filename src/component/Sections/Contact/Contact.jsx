@@ -44,12 +44,6 @@ function Contact() {
         <section className="main-content" id="contact">
           <div className="contact-text container">
             <h1 className="contact-heading">Contact</h1>
-            <article>
-              <p className="article-text">
-                Get in touch at{" "}
-                <b>william.ongaki10@gmail.com</b>
-              </p>
-            </article>
             <Footer />
           </div>
 

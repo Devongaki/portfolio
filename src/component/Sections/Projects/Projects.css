@@ -4,7 +4,7 @@
   padding-bottom: 2em;
 }
 
-.project-container{
+.project-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -12,24 +12,21 @@
   justify-content: center;
   align-items: center;
   padding-top: 4em;
- 
-  
 }
 
-.project-items{
+.project-items {
   display: flex;
   gap: 2em;
   padding-bottom: 2em;
 }
 
 .project-img {
-  background-color: #161616;
-  width: 80%;
+  width: 100%;
   height: 500px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.project-img img{
+.project-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -72,7 +69,7 @@
   gap: 0.5em;
   color: var(--wo-secondary-color);
   width: 100%;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .github-cta a:hover {
@@ -89,11 +86,10 @@
   gap: 0.5em;
   color: var(--wo-secondary-color);
   color: var(--wo-body-bg);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 960px) {
- 
   .project-items {
     flex-direction: column;
   }
@@ -102,7 +98,7 @@
     width: 100%;
     height: 500px;
   }
-  .project-img img{
+  .project-img img {
     object-fit: cover;
   }
 
@@ -113,18 +109,23 @@
 }
 
 @media screen and (max-width: 760px) {
-  .project-img{
-    height: 300px;
+  .project-img {
+    height: 200px;
   }
-
   
 }
 
-
-@media screen and (max-width: 380px) {
-.project-cta {
+@media screen and (max-width: 580px) {
+  .project-cta {
     align-items: stretch;
     flex-direction: column;
     gap: 1em;
-}
+  }
+
+  .project-img{
+    height: auto;
+  }
+  .project-img img {
+    object-fit: contain;
+  }
 }
