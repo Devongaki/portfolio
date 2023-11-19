@@ -9,8 +9,7 @@ export const Navbar = () => {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  
-  
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
