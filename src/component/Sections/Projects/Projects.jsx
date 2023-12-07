@@ -68,7 +68,7 @@ export const Projects = () => {
                   </a>
                 </div>
                 <div className="live-cta">
-                  <a href="threadsco.netlify.app">
+                  <a href="https://threadsco.netlify.app/">
                     <MdLiveTv />
                     Demo
                   </a>
