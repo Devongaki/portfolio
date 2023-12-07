@@ -68,7 +68,7 @@ export const Projects = () => {
                   </a>
                 </div>
                 <div className="live-cta">
-                  <a href="https://upbeat-kare-14d099.netlify.app/blog">
+                  <a href="threadsco.netlify.app">
                     <MdLiveTv />
                     Demo
                   </a>
