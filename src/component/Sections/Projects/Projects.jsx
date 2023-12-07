@@ -3,7 +3,7 @@ import "./Projects.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 import GamestudioImg from "../../../assets/images/GamestudioImg.png";
-import KenyaSafariimg from "../../../assets/images/kenyasafari.png";
+import threadco from "../../../assets/images/threadco.png";
 import Rainydaysimg from "../../../assets/images/Rainydays.png";
 
 export const Projects = () => {
@@ -48,23 +48,21 @@ export const Projects = () => {
           </div>
           <div className="project-items">
             <div className="project-img">
-              <img src={KenyaSafariimg} alt="" />
+              <img src={threadco} alt="" />
             </div>
             <div className="project-details">
               <div className="project-title">
-                <h1>Kenya Safari</h1>
+                <h1>Threads&Co</h1>
               </div>
               <div className="project-description">
                 <p>
-                  Kenya Safaris showcases my safari trip to Kenya, featuring photos, stories,
-                  and recommendations for future travelers. <br /><br /> The app offers a
-                  personalized experience for users interested in African
-                  wildlife and culture.
+                  Threads&Co is an innovative e-commerce platform that redefines
+                  the online shopping experience for fashion enthusiasts.
                 </p>
               </div>
               <div className="project-cta">
                 <div className="github-cta">
-                  <a href="https://github.com/Devongaki/gamearchieve">
+                  <a href="https://github.com/Devongaki/Threadsco">
                     <FaGithubSquare />
                     Github
                   </a>
@@ -89,9 +87,10 @@ export const Projects = () => {
               <div className="project-description">
                 <p>
                   Rainydays is an e-commerce platform that offers a diverse
-                  range of winter jackets. <br /><br /> The site includes filtering options,
-                  user accounts, secure payment processing, and a personalized
-                  shopping experience.
+                  range of winter jackets. <br />
+                  <br /> The site includes filtering options, user accounts,
+                  secure payment processing, and a personalized shopping
+                  experience.
                 </p>
               </div>
               <div className="project-cta">
