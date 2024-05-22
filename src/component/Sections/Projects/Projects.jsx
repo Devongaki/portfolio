@@ -38,7 +38,7 @@ export const Projects = () => {
                   </a>
                 </div>
                 <div className="live-cta">
-                  <a href="gamearchive-ongaki.netlify.app">
+                  <a href="https://gamearchive-ongaki.netlify.app/">
                     <MdLiveTv />
                     Demo
                   </a>
