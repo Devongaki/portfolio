@@ -59,7 +59,6 @@
 .project-cta {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .github-cta,
@@ -123,5 +122,6 @@
 @media (max-width: 576px) {
   .project-cta {
     flex-direction: column;
+    gap: 1em;
   }
 }
