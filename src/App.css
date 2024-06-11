@@ -9,10 +9,11 @@
   --wo-body-bg: #000000;
   --wo-body-light-bg: #fff;
   --wo-secondary-color: #ffffff;
-  --wo-text-color: #ffff;
+  --wo-text-color: #000000;
   --wo-nav-text-color: #000000;
   --wo-hover-color: #ff4500;
   --span-color: #ff4500;
+  --background-color: #f5f7fa;
 
   /* font family */
   --inter-font-family: "Inter", sans-serif;
