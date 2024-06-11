@@ -3,7 +3,7 @@ import "./Projects.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 import GamestudioImg from "../../../assets/images/GamestudioImg.png";
-import threadco from "../../../assets/images/threadco.png";
+import nexcent from "../../../assets/images/nexcent.png";
 import Rainydaysimg from "../../../assets/images/Rainydays.png";
 
 export const Projects = () => {
@@ -48,16 +48,22 @@ export const Projects = () => {
           </div>
           <div className="project-items">
             <div className="project-img">
-              <img src={threadco} alt="" />
+              <img src={nexcent} alt="" />
             </div>
             <div className="project-details">
               <div className="project-title">
-                <h1>Threads&Co</h1>
+                <h1>Nexcent</h1>
               </div>
               <div className="project-description">
                 <p>
-                  Threads&Co is an innovative e-commerce platform that redefines
-                  the online shopping experience for fashion enthusiasts.
+                  To improve my skills in web design, I created a landing page
+                  using the following technologies:
+                  <br></br> React: A powerful JavaScript library for building
+                  user interfaces. HTML: The standard markup language for
+                  creating web pages. CSS: A stylesheet language used to
+                  describe the presentation of a document written in HTML. This
+                  project helped me practice and enhance my abilities in modern
+                  web development and design.
                 </p>
               </div>
               <div className="project-cta">
