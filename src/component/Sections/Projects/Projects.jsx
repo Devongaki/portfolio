@@ -68,13 +68,13 @@ export const Projects = () => {
               </div>
               <div className="project-cta">
                 <div className="github-cta">
-                  <a href="https://github.com/Devongaki/Threadsco">
+                  <a href="https://github.com/Devongaki/nexcent">
                     <FaGithubSquare />
                     Github
                   </a>
                 </div>
                 <div className="live-cta">
-                  <a href="https://threadsco.netlify.app/">
+                  <a href="https://nexcentongaki.netlify.app">
                     <MdLiveTv />
                     Demo
                   </a>
